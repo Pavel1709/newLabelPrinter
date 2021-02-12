@@ -21,7 +21,7 @@ public class NewLabelPrinter {
      */
     public static DBConnector dbc1;
     public static void main(String[] args) throws ClassNotFoundException, SQLException, InterruptedException {
-        dbc1 = new DBConnector("com.ibm.as400.access.AS400JDBCDriver", "jdbc:as400://G2IPGCSRU1", "UFM03AOFIT", "UFM03AOFIT");
+        dbc1 = new DBConnector("", "", "", "");
         
         dbc1.connect();
         FrameForCodes ffc = new FrameForCodes();
